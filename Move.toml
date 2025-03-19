@@ -1,0 +1,16 @@
+[package]
+name = "Rideshare"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule= '0x2d14421b76f5dbf54572122e0007e05ef02cb56c605532a6e91f17864ed007c1'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
